@@ -3,8 +3,7 @@ body {
     background-color: rgb(157, 207, 157); 
     
 }
-
-body:toscana.html {
+.amarillo {
     background-color: rgb(226, 202, 107);
 }
 
@@ -44,7 +43,6 @@ img {
 
  nav ul li {
      display: inline;
-     /* Mantém os itens em linha */
  }
 
  nav ul li a {
@@ -56,7 +54,7 @@ img {
 
  nav ul li a:hover {
      background-color: #eeec7f;
-     /* Fundo ao passar o mouse */
+     
      color: #fff;
      border-radius: 5px;
  }
@@ -64,4 +62,63 @@ img {
  .column {
     float: left;
     width: 50%;
+ }
+
+ body {
+     margin: 0;
+     font-family: Arial, sans-serif;
+ }
+
+ footer {
+     background-color: #222;
+     /* Fundo escuro */
+     color: #f4f4f4;
+     /* Texto claro */
+     padding: 20px 0;
+     text-align: center;
+     margin-top: 50px;
+ }
+
+ footer .social-icons {
+    margin: 10px 0;
+}
+
+.content {
+    margin: 20px;
+}
+
+footer .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+
+footer .social-icons a img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    /* Opcional: Torna os ícones arredondados */
+    transition: transform 0.3s, filter 0.3s;
+}
+
+footer .social-icons a img:hover {
+    transform: scale(1.2);
+    /* Ampliação ao passar o mouse */
+    filter: brightness(1.5);
+    /* Realce do brilho */
+}
+
+ footer .footer-info {
+     font-size: 0.9em;
+     margin: 10px 0;
+ }
+
+ footer .footer-info a {
+     color: #f39c12;
+     text-decoration: none;
+ }
+
+ footer .footer-info a:hover {
+     text-decoration: underline;
  }
