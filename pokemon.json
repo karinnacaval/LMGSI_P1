@@ -1,0 +1,39 @@
+
+{
+    "pokemon": [
+        {
+            "name": "Bulbasaur",
+            "type": ["Grass", "Poison"],
+            "abilities": ["Overgrow", "Chlorophyll"],
+            "height": 0.7,  
+            "weight": 6.9,  
+            "stats": {
+                "hp": 45,
+                "attack": 49,
+                "defense": 49,
+                "speed": 45
+            },
+            "moves": [
+                {"name": "Tackle", "type": "Normal", "power": 40},
+                {"name": "Vine Whip", "type": "Grass", "power": 45}
+            ]
+        },
+        {
+            "name": "Charmander",
+            "type": ["Fire"],
+            "abilities": ["Blaze", "Solar Power"],
+            "height": 0.6,  
+            "weight": 8.5,  
+            "stats": {
+                "hp": 39,
+                "attack": 52,
+                "defense": 43,
+                "speed": 65
+            },
+            "moves": [
+                {"name": "Scratch", "type": "Normal", "power": 40},
+                {"name": "Ember", "type": "Fire", "power": 40}
+            ]
+        }
+    ]
+}
