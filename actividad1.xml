@@ -1,0 +1,20 @@
+
+<products>
+    <product id="P01">
+        <name>Smartphone Apple iPhone 16 Pro Max</name>
+        <description>Apple iPhone 16 Pro Max, Titanio Desierto, 512 GB, 5G, 6.9 " OLED Super Retina XDR, Chip A18 Pro, iOS</description>
+        <price currency="EUR">1619.00</price>
+        <category>Electronica</category>
+        <availability status="en estoc">50</availability>
+        <image>https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_144638860</image>
+    </product>
+   
+    <product id="P02">
+        <name>Smartwatch</name>
+        <description>Smartwatch - Xiaomi Redmi Watch 5 Active, Bluetooth, Batería hasta 18 días, Multideporte, Silver</description>
+        <price currency="EUR">32.99</price>
+        <category>Electronica</category>
+        <availability status="esgotat">0</availability>
+        <image>https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_145830163</image>
+    </product>
+</products>
