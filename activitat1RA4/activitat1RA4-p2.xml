@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cataleg SYSTEM "activitat1RA4-p2.dtd">
+
+<cataleg>
+    <llista_actors>
+        <actor id="a1">
+            <nom>Diane Lane</nom>
+            <edat>58</edat>
+        </actor>
+        <actor id="a2">
+            <nom>Raoul Bova</nom>
+        </actor>
+        <actor id="a3">
+            <nom>Alexandre Rodrigues</nom>
+        </actor>
+        <actor id="a4">
+            <nom>Leandro Firmino</nom>
+        </actor>
+    </llista_actors>
+    <llista_pelicules>
+        <pelicula id="p1">
+            <titol idioma="it">Sob o Sol da Toscana</titol>
+            <director>Audrey Wells</director>
+            <any>2003</any>
+            <actors>
+                <actor_ref ref="a1"/>
+                <actor_ref ref="a2"/>
+            </actors>
+        </pelicula>
+        <pelicula id="p2">
+            <titol idioma="pt">Cidade de Deus</titol>
+            <director>Fernando Meirelles</director>
+            <any>2002</any>
+            <actors>
+                <actor_ref ref="a3"/>
+                <actor_ref ref="a4"/>
+            </actors>
+        </pelicula>
+    </llista_pelicules>
+    <llista_recomanacions_pelicules>
+        <recomanacio ref="p2"/>
+    </llista_recomanacions_pelicules>
+</cataleg>

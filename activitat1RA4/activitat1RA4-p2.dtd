@@ -1,0 +1,25 @@
+<!ELEMENT cataleg (llista_actors, llista_pelicules, llista_recomanacions_pelicules)>
+
+<!-- llista d'actors -->
+<!ELEMENT llista_actors (actor+)>
+<!ELEMENT actor (nom, edat?)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT edat (#PCDATA)>
+<!ATTLIST actor id ID #REQUIRED>
+
+<!-- llista de pel·lícules -->
+<!ELEMENT llista_pelicules (pelicula+)>
+<!ELEMENT pelicula (titol, director, any, actors)>
+<!ATTLIST pelicula id ID #REQUIRED>
+<!ELEMENT titol (#PCDATA)>
+<!ATTLIST titol idioma CDATA #REQUIRED>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT any (#PCDATA)>
+<!ELEMENT actors (actor_ref+)>
+<!ELEMENT actor_ref EMPTY>
+<!ATTLIST actor_ref ref IDREF #REQUIRED>
+
+<!-- llista de recomanacions de pel·lícules -->
+<!ELEMENT llista_recomanacions_pelicules (recomanacio*)>
+<!ELEMENT recomanacio EMPTY>
+<!ATTLIST recomanacio ref IDREF #REQUIRED>
