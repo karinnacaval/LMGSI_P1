@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "nom": "Joan",
+        "cognom": "Garcia",
+        "data": {
+            "dia": 15,
+            "mes": 6,
+            "any": 2001
+        },
+        "email": "joan.garcia@gmail.com",
+        "feina": true,
+        "curs": "Informatica"
+    },
+    {
+        "id": 2,
+        "nom": "Maria",
+        "cognom": "Lopez",
+        "data": {
+            "dia": 23,
+            "mes": 9,
+            "any": 2000
+        },
+        "email": "maria.lopez@gmail.com",
+        "feina": false,
+        "curs": "Informatica"
+    },
+    {
+        "id": 3,
+        "nom": "Pere",
+        "cognom": "Martinez",
+        "data": {
+            "dia": 5,
+            "mes": 2,
+            "any": 1999
+        },
+        "email": "pere.martinez@gmail.com",
+        "feina": true,
+        "curs": "Informatica"
+    },
+    {
+        "id": 4,
+        "nom": "Laura",
+        "cognom": "Fernandez",
+        "data": {
+            "dia": 10,
+            "mes": 12,
+            "any": 2002
+        },
+        "email": "laura.fernandez@gmail.com",
+        "feina": false,
+        "curs": "Informatica"
+    },
+    {
+        "id": 5,
+        "nom": "David",
+        "cognom": "Ruiz",
+        "data": {
+            "dia": 30,
+            "mes": 7,
+            "any": 2001
+        },
+        "email": "david.ruiz@gmail.com",
+        "feina": true,
+        "curs": "Informatica"
+    }
+]
